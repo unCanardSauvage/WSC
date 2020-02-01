@@ -44,28 +44,19 @@
   </div>
 </nav>
 
-
-
-
-
 <div class="jumbotron">
   <h1 class="display-4">Bonjour, jeune héro.ïne ! (oui, écriture inclusive !!!)</h1>
-  <p class="lead">Vous avez un super pouvoir mais vous ne le savez pas encore ? Vous savez que vous avez un super pouvoir mais vous ne le connnaissez pas encore ? Ici, vous allez pouvoir le détetrminer grâce à notre questionnaire. Remplissez le sérieusement et correctement. Promis, vos données de seront pas réutilisées ni enregistrées.</p>
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+  <p class="lead">Bravo vous avez fait la moitié je ne peux que vous félicter continuez comme ça n'abandonner jamais car vous n'êtes pas des aspirateurs de pacotille</p>
   <hr class="my-4">
   <p>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    En savoir plus...
+    Pas de collapse cette fois...
   </button>
 </p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Il n'y a rien à savoir davantage.
-  </div>
 </div>
-</div>
-
-
-
 
 
 <div class="container">
@@ -77,63 +68,59 @@
 
 
 
-
-
-  <div class="form-group">
-    <label for="1">As-tu un super-pouvoir ?</label>
-    <select class="form-control" id="1">
-      <option>Oui</option>
-      <option>Non</option>
-      <option>Plutôt quantique</option>
-      <option>Je ne sais pas</option>
-    </select>
-  </div>
-
     <div class="form-group">
-    <label for="2">Aimes-tu tuer des gens ?</label>
-    <select class="form-control" id="2">
+    <label for="11">Tu es un abruti</label>
+    <select class="form-control" id="11">
       <option>Oui</option>
-      <option>Non</option>
-      <option>Je préfère le jardinage</option>
+      <option>Je ne suis pas d'accord</option>
+      <option>C'est pas faux</option>
       <option>Je ne sais pas</option>
     </select>
   </div>
 
 
-    <div class="form-group">
-    <label for="3">Quel plat pourrais-tu manger chaque jour ?</label>
-    <select class="form-control" id="3">
-      <option>De la soupe aux légumes</option>
-      <option>Un potage végan</option>
-      <option>Je ne souhaite pas me prononcer</option>
+      <div class="form-group">
+    <label for="12">Methylchloroisothiazolinone ou parbènes ?</label>
+    <select class="form-control" id="12">
+      <option>Parabènes</option>
+      <option>Metylchloroisothiazolinone, sans hésiter</option>
+      <option>methylprednisolone vidal, aussi appelée 6-alpha-méthylprednisolone, ecorticoïde de la famille des glucocorticoïdes</option>
+      <option>Savon de Marseille</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="13">Quelles sont tes intérêts dans la vie ?</label>
+    <select class="form-control" id="13">
+      <option>Sauver le monde</option>
+      <option>Voir à travers les vêtements</option>
+      <option>Mes intérêts sont multiples</option>
       <option>Je ne sais pas</option>
     </select>
   </div>
 
 
-  <div class="form-group">
-    <label for="4">Sais-tu compter ?</label>
-    <select class="form-control" id="4">
-      <option>Oui, j'en lis chaque jours</option>
-      <option>Non</option>
-      <option>Désolé, je ne sais pas lire</option>
-      <option>Je ne sais pas mais je sais lire</option>
+      <div class="form-group">
+    <label for="14">3 + 6 ?</label>
+    <select class="form-control" id="14">
+      <option>9</option>
+      <option>18</option>
+      <option>36</option>
+      <option>0, ou, ma note au contrôle sur les séries de Fourier car je ne sais pas intégrer.</option>
     </select>
   </div>
 
 
-
-  <div class="form-group">
-    <label for="5">Qui a écrit "La vie d'une poule nommée Piailleur qui fanfaronne à longueur de journée dans un poulailler bovin" ?</label>
-    <select class="form-control" id="5">
-      <option>Oui</option>
-      <option>Paul Henri Balluet d'Estournelles de Constant</option>
-      <option>Emilie Genton</option>
-      <option>Je ne sais pas</option>
+      <div class="form-group">
+    <label for="15">Quel est ton diplôme obtenu dernièrement ?</label>
+    <select class="form-control" id="15">
+      <option>Baccalauréat ES (un seul se trouve ici à l'ESIREM !)</option>
+      <option>Baccalauréat Scientifique option Ecologie-Agronomie et Territoires (E.A.T. comme manger en anglais, petit jeu de mot de la part de l'éducation nationnale)</option>
+      <option>CAP coiffure option coiffure pour canniches et créatures canines avec mention diplôme non obtenu</option>
+      <option>Je ne vais pas à l'école</option>
     </select>
   </div>
-
-
 
 
 
@@ -143,7 +130,8 @@
     <div class="col-10">
 
 
-<a class="nav-link" href="test2.php">Suivant <span class="sr-only(current)"</span> </a>
+<a class="nav-link" href="test4.php">Suivant <span class="sr-only(current)"</span> </a>
+
 
 
 

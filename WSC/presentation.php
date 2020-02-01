@@ -47,6 +47,46 @@
 
 
 
+
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Qui recrutons-nous ?</h5>
+        <p class="card-text">Nous recrutons des super héros, des mecs intelligents du type 20 Einstein pour le prix un ou les individus ayant subi une mutation (mutations incluant un handicap exclus).</p>
+        <a href="#" class="btn btn-primary">En savoir plus...</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Qui sommes-nous</h5>
+        <p class="card-text">Nous sommes une agence.</p>
+        <a href="#" class="btn btn-primary">En savoir plus...</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

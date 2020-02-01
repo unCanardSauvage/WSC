@@ -11,7 +11,6 @@
     <title>Je m'engage</title>
   </head>
   <body>
-  
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000099;">
   <a class="navbar-brand" href="#">Recrutation de héros !</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,32 +46,13 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-10">
-      
+    <div class="col-15">
+      <p> Je remplis le formulaire suivant :                                         </p>
     </div>
-    <div class="col-10">
+    <div class="col-6">
       
-<?php
-//,genre,pouvoir,mail,date,pays,ville,mdp
-//,$genre,$pouvoir,$mail,$date,$pays,$ville
-$bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
-var_dump($_POST);
- if (!empty($_POST)) {	 
-$rep = $bdd->prepare('INSERT INTO utilisateur (nom ,prenom,email,mot_de_passe,pouvoir) VALUES(?,?,?,?,?)');
-$nom = $_POST['nom']; 
-$prenom = $_POST['prenom']; 
-$email = $_POST['mail'];
-$mot_de_passe = $_POST['mdp2'];
-/*$genre = $_POST['genre'];
-*/$pouvoir =  $_POST['pouvoir'];/*
-$date_naissance = $_POST['date'];
-$pays = $_POST['pays'];
-$ville = $_POST['ville'];*/
-$rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir)); 
- }
-?>
 
-<form action="signup.php" method="post">
+<form>
 
 
     <div class="row">
@@ -85,10 +65,12 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
       <div class="col">
         <div class="form-group">
           <label for="exampleInputPassword1">Nom</label>
-          <input type="Nom" class="form-control" placeholder="de la Courge du Lamberion d'Estournelles de Givors" name="nom">
+          <input type="Nom" class="form-control" placeholder="de la Courge du Lamberion de Givors" name="nom">
         </div>
       </div>
     </div>
+
+
 
 
   <div class="form-group">
@@ -102,7 +84,7 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
 
   <div class="form-group">
     <label for="4">Pouvoir</label>
-    <select class="form-control" name="pouvoir">
+    <select class="form-control mr-sm-2" name="pouvoir">
       <option>vitesse super sonique</option>
       <option>force de baleine bleue</option>
       <option>voler (mais que les sacs à main)</option>
@@ -159,7 +141,7 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
+        Conditions d'utilisation
       </label>
       <div class="invalid-feedback">
         You must agree before submitting.
@@ -167,7 +149,7 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
     </div>
   </div>
 
-
+<a class="nav-link" href="condition.php"> prendre connaissance des conditions d'utilisation <span class="sr-only(current)"</span> </a>
 
       <a href="signin.php" class="btn btn-outline-light my-2 my-sm-0" role="button" >Connexion</a>
 
@@ -179,11 +161,29 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
     <!-- <a class="nav-link" href="index.html"> <span class="sr-only">(current)</span> </a> -->
 
     <a href="index.php" class="btn btn-primary" role="submit" >Connexion</a>
-</form>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
-    <div class="col">
-      
+    <div class="col-15">
+
+      </div>
+
+
+
     </div>
   </div>
 </div>

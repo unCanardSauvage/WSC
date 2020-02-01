@@ -44,28 +44,24 @@
   </div>
 </nav>
 
-
-
-
-
 <div class="jumbotron">
   <h1 class="display-4">Bonjour, jeune héro.ïne ! (oui, écriture inclusive !!!)</h1>
-  <p class="lead">Vous avez un super pouvoir mais vous ne le savez pas encore ? Vous savez que vous avez un super pouvoir mais vous ne le connnaissez pas encore ? Ici, vous allez pouvoir le détetrminer grâce à notre questionnaire. Remplissez le sérieusement et correctement. Promis, vos données de seront pas réutilisées ni enregistrées.</p>
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+  <p class="lead">Encore un petit effort...</p>
   <hr class="my-4">
   <p>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    En savoir plus...
+    Un collapse cette fois, ne soyons pas radin...
   </button>
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-    Il n'y a rien à savoir davantage.
+    Un collapse fonctionnel.
   </div>
 </div>
 </div>
-
-
-
 
 
 <div class="container">
@@ -77,63 +73,59 @@
 
 
 
-
-
-  <div class="form-group">
-    <label for="1">As-tu un super-pouvoir ?</label>
-    <select class="form-control" id="1">
-      <option>Oui</option>
-      <option>Non</option>
-      <option>Plutôt quantique</option>
-      <option>Je ne sais pas</option>
-    </select>
-  </div>
-
     <div class="form-group">
-    <label for="2">Aimes-tu tuer des gens ?</label>
-    <select class="form-control" id="2">
-      <option>Oui</option>
-      <option>Non</option>
-      <option>Je préfère le jardinage</option>
+    <label for="16"> ?</label>
+    <select class="form-control" id="16">
+      <option> </option>
+      <option>Quelle est la question ?</option>
+      <option>Où est la question ?</option>
+      <option>Mais où est donc la question ?</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="17">Si tu devais apporter un seul objet sur une île touristique, quel sera cet objet ?</label>
+    <select class="form-control" id="17">
+      <option>Une clé anglaise</option>
+      <option>Un écrou</option>
+      <option>Un parallépidpède trapèziquoïdal carré rectangle régulier</option>
       <option>Je ne sais pas</option>
     </select>
   </div>
 
 
-    <div class="form-group">
-    <label for="3">Quel plat pourrais-tu manger chaque jour ?</label>
-    <select class="form-control" id="3">
-      <option>De la soupe aux légumes</option>
-      <option>Un potage végan</option>
-      <option>Je ne souhaite pas me prononcer</option>
+      <div class="form-group">
+    <label for="18">Que fais-tu dans le plus grand secret de ton intimité ?</label>
+    <select class="form-control" id="18">
+      <option>Je ne le dirai pas</option>
+      <option>Je me cure le nez</option>
+      <option>Je reniffle mes chaussettes et je m'évanouïs</option>
       <option>Je ne sais pas</option>
     </select>
   </div>
 
 
-  <div class="form-group">
-    <label for="4">Sais-tu compter ?</label>
-    <select class="form-control" id="4">
-      <option>Oui, j'en lis chaque jours</option>
-      <option>Non</option>
-      <option>Désolé, je ne sais pas lire</option>
-      <option>Je ne sais pas mais je sais lire</option>
+      <div class="form-group">
+    <label for="19">De quelle forme est la tour ?</label>
+    <select class="form-control" id="19">
+      <option>Triangle</option>
+      <option>Cylindrique, 16 soupapes</option>
+      <option>Touriqoïdale</option>
+      <option>Je ne sais pas de quoi vous parlez.</option>
     </select>
   </div>
 
 
-
-  <div class="form-group">
-    <label for="5">Qui a écrit "La vie d'une poule nommée Piailleur qui fanfaronne à longueur de journée dans un poulailler bovin" ?</label>
-    <select class="form-control" id="5">
-      <option>Oui</option>
-      <option>Paul Henri Balluet d'Estournelles de Constant</option>
-      <option>Emilie Genton</option>
-      <option>Je ne sais pas</option>
+      <div class="form-group">
+    <label for="20">A quelle heure prends-tu ton souper ?</label>
+    <select class="form-control" id="20">
+      <option>20h</option>
+      <option>19h02:14</option>
+      <option>Cheval.</option>
+      <option>J'ai déjà répondu à cette question et je veux finir se questionnaire d'une qualité exceptionelle.</option>
     </select>
   </div>
-
-
 
 
 
@@ -143,7 +135,8 @@
     <div class="col-10">
 
 
-<a class="nav-link" href="test2.php">Suivant <span class="sr-only(current)"</span> </a>
+<a class="nav-link" href="index.php">Suivant <span class="sr-only(current)"</span> </a>
+
 
 
 

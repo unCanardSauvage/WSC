@@ -77,12 +77,56 @@
 
 
     <div class="form-group">
-    <label for="3">Sais-tu compter ?</label>
+    <label for="6">Que penses-tu des roues des nouvelles Renault Scénic ?</label>
     <select class="form-control" id="6">
-      <option>Oui, j'en lis chaque jours</option>
-      <option>Non</option>
-      <option>Désolé, je ne sais pas lire.</option>
-      <option>Je ne sais pas mais je sais lire.</option>
+      <option>Ingénieux</option>
+      <option>Moche</option>
+      <option>Moche, pratique, écologique mais pas ingénieux mais intelligent quand même</option>
+      <option>Je ne sais pas</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="7">On te dit soupe au lait. Que fais-tu ?</label>
+    <select class="form-control" id="7">
+      <option>Oui</option>
+      <option>Je me vèxe</option>
+      <option>Je m'énerve et tout le monde se moque de moi</option>
+      <option>Je ne sais pas</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="8">Tu préfère...</label>
+    <select class="form-control" id="8">
+      <option>...pratiquer le curling de manière intensive.</option>
+      <option>...die Semmelknödeln mit Pilze von Bayern.</option>
+      <option>...les gnocchis de courgettes sauce bolognaise sur son lit de choucroutte saisie au vin blanc fruité, acide mais doux, affuté 36 mois et 3 jours.</option>
+      <option>...je ne sais pas.</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="9">As-tu une voiture ?</label>
+    <select class="form-control" id="9">
+      <option>Non, mais j'ai une fusée intergalactique</option>
+      <option>Non c'est trop cher</option>
+      <option>Non, ça pollue</option>
+      <option>Non.</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label for="10">A quelle heure prends-tu ton souper ?</label>
+    <select class="form-control" id="10">
+      <option>20h</option>
+      <option>19h02:14</option>
+      <option>Cheval.</option>
+      <option>Je ne sais pas</option>
     </select>
   </div>
 
@@ -94,6 +138,7 @@
     <div class="col-10">
 
 
+<a class="nav-link" href="test3.php">Suivant <span class="sr-only(current)"</span> </a>
 
 
 

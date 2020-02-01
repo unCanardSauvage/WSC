@@ -62,15 +62,15 @@
     <div class="carousel-item">
       <img src="img/tracteur_noir.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>Comment me rendre utile ?</h5>
+        <a class="nav-link" href="test.php">Suis-je un super héro ?</a>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/tracteur_violet.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>Je veux me créer un compte...</h5>
+        <a class="nav-link" href="signup.php">...donc je clique ici.</a>
       </div>
     </div>
   </div>
@@ -85,6 +85,17 @@
 </div>
 
 
+<p></p>
+<div class="container">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">L'heure est grave</h5>
+    <p class="card-text">De nos jours, les méchants de l'Internet nous envahissent. Ils prolifèrent ! Et pas que les méchants de l'Internet ! Les méchants tout court !!! Ahhh terrible ! Terribles images ! Nous entrons dans une ère tragique et appocalyptique chers amis ! Qu'alons nous faire ??? Nous allons tous mourir un par un, les un après les autres, nous tomberons tous tôt ou tard ! Nous nous soutiendrons, compagnons, compatriotes. Nous nous soutiendrons dans la mort et la défaite ! Mais heureusement tout n'est pas perdu ! et oui ! Un espoir est là, tel un rayon de soleil qui perce une épaisse couche de nuages, tel un oasis au milieu du désert chaud et aride, telle une trace de vie dans un endroit choatique, désastreux, maléfique, sombre et perdu ! Des super-héros sont dispersés aux quatre coins du monde. Ils se cachent, ils se font discret mais il est temps de les ressencer afin de donner un espoir pour l'humanité</p>
+  </div>
+</div>
+</div>
+
+<p></p>
 
 
 
