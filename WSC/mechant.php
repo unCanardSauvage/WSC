@@ -58,6 +58,9 @@
 
 <p></p>
 
+        <a href="add_mechant.php" class="btn btn-outline-dark my-2 my-sm-0" role="button" >Ajouter un méchant</a>
+
+        <p></p>
 
 
             <div class="card">
@@ -66,7 +69,7 @@
                     <p class="card-text">
                         <img width="250" height="200" class="rounded float-left" alt="Card image cap" src="img\Groupe.jpg">
                         </p>
-                        <p class="text-warning text-left">Lieu : ESIREM, Dijon <br></p>
+                        <p class="text-warning text-left">Lieu : ESIREM, Dijon, Amphithéâtre Steinbrunn <br></p>
                         <p class="text-info text-left">Type : sadisme <br></p>
                         <p class="text-info text-left">Heure : 1h30<br></p>
                         <p class="text-success text-left">Dangerosité de l'individu : Attention, ils sont plusieurs<br></p>
