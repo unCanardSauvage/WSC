@@ -102,7 +102,7 @@ while ($donnees = $reponse->fetch())
 
 { 
 
-  <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+?>  <div class="card flex-md-row mb-4 shadow-sm h-md-250">
     <div class="card-body d-flex flex-column align-items-start">
       <div class="container">
         <div class="row row-cols-1">
@@ -120,7 +120,7 @@ while ($donnees = $reponse->fetch())
       </div>
     </div>
   </div>
-
+<?php
 
 }
 
