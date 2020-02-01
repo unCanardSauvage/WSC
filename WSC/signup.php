@@ -51,8 +51,26 @@
     </div>
     <div class="col-6">
       
-
-<form>
+<?php
+//,genre,pouvoir,mail,date,pays,ville,mdp
+//,$genre,$pouvoir,$mail,$date,$pays,$ville
+$bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
+var_dump($_POST);
+ if (!empty($_POST)) {	 
+$rep = $bdd->prepare('INSERT INTO utilisateur (nom ,prenom,email,mot_de_passe,pouvoir) VALUES(?,?,?,?,?)');
+$nom = $_POST['nom']; 
+$prenom = $_POST['prenom']; 
+$email = $_POST['mail'];
+$mot_de_passe = $_POST['mdp2'];
+/*$genre = $_POST['genre'];
+*/$pouvoir =  $_POST['pouvoir'];/*
+$date_naissance = $_POST['date'];
+$pays = $_POST['pays'];
+$ville = $_POST['ville'];*/
+$rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir)); 
+ }
+?>
+<form action="signup.php" method="post">
 
 
     <div class="row">
