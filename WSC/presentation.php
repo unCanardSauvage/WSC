@@ -57,7 +57,17 @@
       <div class="card-body">
         <h5 class="card-title">Qui recrutons-nous ?</h5>
         <p class="card-text">Nous recrutons des super héros, des mecs intelligents du type 20 Einstein pour le prix un ou des individus ayant subi une mutation (mutations incluant un handicap exclus).</p>
-        <a href="#" class="btn btn-primary">En savoir plus...</a>
+        <p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapseExample">
+    En savoir plus...
+  </button>
+</p>
+        <div class="collapse" id="collapse">
+    <div class="card card-body">
+    Veilliez vous renseigner sur la rubrique à coté
+  </div>
+</div>
+
       </div>
     </div>
     </div>
@@ -67,8 +77,8 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Qui sommes-nous ?</h5>
-        <p class="card-text">Nous sommes une agence.</p>
-        <a href="#" class="btn btn-primary">En savoir plus...</a>
+        <p class="card-text">Nous sommes une agence.</p> <p> Correspondez-vous à nos attentes ?</p> <br>
+        <a href="confirmation.php" class="btn btn-primary">Je me teste moi même</a>
       </div>
       </div>
     </div>
