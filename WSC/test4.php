@@ -135,7 +135,7 @@
     <div class="col-10">
 
 
-<a class="nav-link" href="index.php">Suivant <span class="sr-only(current)"</span> </a>
+<a class="nav-link" href="redirection.php">Suivant <span class="sr-only(current)"</span> </a>
 
 
 
