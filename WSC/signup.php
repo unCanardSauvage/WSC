@@ -55,7 +55,6 @@
 //,genre,pouvoir,mail,date,pays,ville,mdp
 //,$genre,$pouvoir,$mail,$date,$pays,$ville
 $bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
-var_dump($_POST);
  if (!empty($_POST)) {	 
 $rep = $bdd->prepare('INSERT INTO utilisateur (nom ,prenom,email,mot_de_passe,pouvoir) VALUES(?,?,?,?,?)');
 $nom = $_POST['nom']; 
@@ -186,15 +185,6 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
 
 
 
-
-
-
-
-
-
-
-
-
     </div>
     <div class="col-15">
 
@@ -205,16 +195,6 @@ $rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir));
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
