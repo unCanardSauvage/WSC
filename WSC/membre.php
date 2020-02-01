@@ -50,7 +50,7 @@ $bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','chou
 $reponse = $bdd->query('SELECT * FROM utilisateur');
 while ($donnees = $reponse->fetch())
 {
-		$donnees['nom'] ." ".$donnees['prenom'] . '<br />';
+		echo $donnees['nom'] ." ".$donnees['prenom'] . '<br />';
 }
 $reponse->closeCursor();
 ?>
