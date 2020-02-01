@@ -44,8 +44,16 @@
   </div>
 </nav>
 
-
-
+<?php
+//code afficher les personne inscrite
+$bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
+$reponse = $bdd->query('SELECT * FROM utilisateur');
+while ($donnees = $reponse->fetch())
+{
+	echo $donnees['nom'] ." ".$donnees['prenom'] . '<br />';
+}
+$reponse->closeCursor();
+?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
