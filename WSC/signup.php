@@ -11,6 +11,7 @@
     <title>Je m'engage</title>
   </head>
   <body>
+  
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000099;">
   <a class="navbar-brand" href="#">Recrutation de héros !</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,35 +52,48 @@
     </div>
     <div class="col-10">
       
+<?php
+//,genre,pouvoir,mail,date,pays,ville,mdp
+//,$genre,$pouvoir,$mail,$date,$pays,$ville
+$bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
+var_dump($_POST);
+ if (!empty($_POST)) {	 
+$rep = $bdd->prepare('INSERT INTO utilisateur (nom ,prenom,email,mot_de_passe,pouvoir) VALUES(?,?,?,?,?)');
+$nom = $_POST['nom']; 
+$prenom = $_POST['prenom']; 
+$email = $_POST['mail'];
+$mot_de_passe = $_POST['mdp2'];
+/*$genre = $_POST['genre'];
+*/$pouvoir =  $_POST['pouvoir'];/*
+$date_naissance = $_POST['date'];
+$pays = $_POST['pays'];
+$ville = $_POST['ville'];*/
+$rep->execute(array($nom,$prenom,$email,$mot_de_passe,$pouvoir)); 
+ }
+?>
 
-<form>
+<form action="signup.php" method="post">
 
 
     <div class="row">
       <div class="col">
         <div class="form-group">
           <label for="exampleInputPassword1">Prénom</label>
-          <input type="prenom" class="form-control" placeholder="Georgette" nom="prenom">
+          <input type="prenom" class="form-control" placeholder="Georgette" name="prenom">
         </div>
       </div>
       <div class="col">
         <div class="form-group">
           <label for="exampleInputPassword1">Nom</label>
-          <input type="Nom" class="form-control" placeholder="de la Courge du Lamberion d'Estournelles de Givors" nom="nom">
+          <input type="Nom" class="form-control" placeholder="de la Courge du Lamberion d'Estournelles de Givors" name="nom">
         </div>
       </div>
     </div>
 
 
-
-
-
-
-
-
   <div class="form-group">
     <label for="3">Genre</label>
-    <select class="form-control" nom="genre">
+    <select class="form-control" name="genre">
       <option>Non binaire</option>
       <option>Femmelette</option>
       <option>Bonhomme</option>
@@ -88,7 +102,7 @@
 
   <div class="form-group">
     <label for="4">Pouvoir</label>
-    <select class="form-control" nom="pouvoir">
+    <select class="form-control" name="pouvoir">
       <option>vitesse super sonique</option>
       <option>force de baleine bleue</option>
       <option>voler (mais que les sacs à main)</option>
@@ -165,21 +179,7 @@
     <!-- <a class="nav-link" href="index.html"> <span class="sr-only">(current)</span> </a> -->
 
     <a href="index.php" class="btn btn-primary" role="submit" >Connexion</a>
-  </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</form>
 
     </div>
     <div class="col">
