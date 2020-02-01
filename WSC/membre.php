@@ -107,14 +107,18 @@ while ($donnees = $reponse->fetch())
       <div class="container">
         <div class="row row-cols-1">
           <div class="col">
+          <h3>
           <?php
             echo $donnees['nom'] ;
           ?>
+        </h3>
           </div>
           <div class="col">
+            <h3>
           <?php
             echo $donnees['prenom'];
           ?>
+        </h3>
           </div>
         </div>
       </div>
