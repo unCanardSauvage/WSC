@@ -56,7 +56,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Qui recrutons-nous ?</h5>
-        <p class="card-text">Nous recrutons des super héros, des mecs intelligents du type 20 Einstein pour le prix un ou les individus ayant subi une mutation (mutations incluant un handicap exclus).</p>
+        <p class="card-text">Nous recrutons des super héros, des mecs intelligents du type 20 Einstein pour le prix un ou des individus ayant subi une mutation (mutations incluant un handicap exclus).</p>
         <a href="#" class="btn btn-primary">En savoir plus...</a>
       </div>
     </div>
@@ -66,7 +66,7 @@
     <div class="shadow p-3 mb-5 bg-white rounded">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Qui sommes-nous</h5>
+        <h5 class="card-title">Qui sommes-nous ?</h5>
         <p class="card-text">Nous sommes une agence.</p>
         <a href="#" class="btn btn-primary">En savoir plus...</a>
       </div>

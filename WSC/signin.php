@@ -43,6 +43,22 @@
 
 
 
+<form>
+  <div class="form-inline my-2 my-lg-2">
+    <label for="exampleInputEmail1">Adresse email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+  <div class="form-inline my-2 my-lg-2">
+    <label for="exampleInputPassword1">Mot de passe</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Connexion</button>
+  <a href="index.php" class="btn btn-outline-light my-2 my-sm-0" role="button" >Connexion</a>
+
+</form>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
