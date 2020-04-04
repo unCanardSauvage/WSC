@@ -1,0 +1,7 @@
+PERSONNE(idPersonne,Nom,Prenom,#idPouvoir)
+REALISE(#idPersonne,#idExp,Date)
+EXPLOIT(idEpx,Titre,Detail)
+ESTMECHANT(#idMechant,#idPersonne)
+MECHANT(idMechant,NomM)
+ESTGENTIL(#idHero,#idPersonne)
+GENTIL(idHero,NomG)
