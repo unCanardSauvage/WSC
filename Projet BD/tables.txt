@@ -1,0 +1,86 @@
++---------------------------------------------------------------------------------+       +-----------------------------------------------------------------+       +------------------------------------+
+|                                     Personne                                    |       |                           SuperPouvoir                          |       |               Realise              |
++------------+----------------------+----------------------+----------------------+       +-----------+-----------------------------------------------------+       +------------+-------+---------------+
+| idPersonne |          Nom         |        Prenom        |        idPouvoir     |       | idPouvoir |                         NomP                        |       | idPersonne | idExp | DateEvenement |
++------------+----------------------+----------------------+----------------------+       +-----------+-----------------------------------------------------+       +------------+-------+---------------+
+|      1     | Fischer              | Rhonda               |           2          |       |     1     | Vitesse super sonique                               |       |      3     |   1   |    08/03/14   |
+|      2     | Jetton               | Jason                |           1          |       |     2     | Force de baleine bleue                              |       |     11     |   2   |    16/08/95   |
+|      3     | Dias Sousa           | Guilherme            |           4          |       |     3     | voler (mais que des sacs à main)                    |       |      6     |   3   |    05/02/19   |
+|      4     | Azevedo Barbosa      | Maria                |           6          |       |     4     | Super bond                                          |       |      4     |   4   |    13/06/08   |
+|      5     | Fernandes Cavalcanti | Davi                 |           7          |       |     5     | Vision atypique (myopie sévère)                     |       |     14     |   5   |    24/12/16   |
+|      6     | Minami               | Hoshiko              |           5          |       |     6     | Invisibilité                                        |       |      1     |   6   |    21/12/12   |
+|      7     | Gatou                | Nijiyo               |           9          |       |     7     | Regénération                                        |       |      2     |   7   |    11/01/03   |
+|      8     | Kazakova             | Hedwig               |           6          |       |     8     | Camouflage                                          |       |      8     |   8   |    05/09/89   |
+|      9     | Michalski            | Janek                |           1          |       |     9     | Résistance ultra-résistante                         |       |      7     |   9   |    19/04/13   |
+|     10     | Zielinska            | Jowita               |           8          |       |    10     | Intelligence Hippopotomonstrosesquippedaliophobique |       |     12     |  10   |    23/05/12   |
+|     11     | Olsezewska           | Waleria              |           6          |       +-----------+-----------------------------------------------------+       |      9     |  11   |    27/06/14   |
+|     12     | Pogrovski            | Ivan                 |           3          |                                                                                 |     13     |  12   |    29/02/20   |
+|     13     | Kalinin              | Josef                |          10          |                                                                                 +------------+-------+---------------+
+|     14     | Girard               | Nathalie             |           2          |
+|     15     | Nazirah Najjar       | Yafiah               |           3          |
++------------+----------------------+----------------------+----------------------+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                             Exploit                                                                                                                                                                                              |
++-------+-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| idExp |                                          Nom                                                    |                                                                                   Texte descriptif                                                                                                                     |
++-------+-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   1   | A troué ses chaussettes pendant son enfance à l'âge de 9 ans.                                   | Rien à ajouter                                                                                                                                                                                                         |
+|   2   | A mangé sa ratatouille pas bonne de la cantine.                                                 | Satisfait ou remboursé. Dans ce cas, plutot satisfait.                                                                                                                                                                 |             
+|   3   | A sauvé 500 personnes.                                                                          | A épargné 486 personnesdu concert d'Aya Nakamura en sabotant la sono.                                                                                                                                                  |
+|   4   | A arrêté Ivan Pogrovski à temps.                                                                | En effet, Pogrovski allait mettre de l'ananas sur sa pizza.                                                                                                                                                            |
+|   5   | A détruit la tour Eiffel car Jowita Zielinska a acheté l'intégralité des terrains en Allemagne. | Après que Jowita ait construit un hotel sur Kurfünrstendamm ainsi que quatre maisons sur Königsallee au Monopoly. Le pauvre pion représentant la tour Eiffel fut malheureusement écrasé violemment sous une chaussure. | 
+|   6   | A réduit en bouillie son pire ennemi.                                                           | En effet, le frommage commençait à avoir une odeur pestilentielle. La situation devenait insupportable.                                                                                                                |
+|   7   | Est allé plus vite que la lumière.                                                              | La lumière étant le surnom de son chien.                                                                                                                                                                               |
+|   8   | A traversé l'Atlantique à pied.                                                                 | L'Atlantique est en fait le surnom donné à la rivière non loin de son village en l'honneur des plages fraîches des étés bretons...                                                                                     |
+|   9   | Est allé cinéma pour rétablir la justice.                                                       | En effet, cet anarchique à caché sa bouteille de solution aqueuse pétillante au fond de son sac. A bas le capitalisme.                                                                                                 |
+|  10   | A écrasé entre ses doigts l'animal le plus dangereux de la planète Terre.                       | En effet, il est connu que le moustique est l'animal le plus dangeureux de la planète avec des milliers de victimes par ans, beaucoup plus que les noix de coco et les chats.                                          |
+|  11   | A percuté la planète à plus de 100 km/h.                                                        | Cet exploit, malgré lui, l'a mené à un decès tragique car son parachute ne s'est pas ouvert.                                                                                                                           |
+|  12   | A détruit l'Empire State building.                                                              | N'a-t-il pas été détruit le 11 septembre 2002 ? Mensonges ! Conspiration ! Complot ! Illuminatis !!!!!                                                                                                                 |
++-------+-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------+          +---------------------+  
+|      EstGentil      |          |        GENTIL       |
++--------+------------+          +--------+------------+
+| idHero | idPersonne |          | idHero |    NomG    |
++--------+------------+          +--------+------------+
+|    1   |      1     |          |    1   | SuperOdeur |
+|    2   |      2     |          |    2   | SuperRapid |
+|    3   |      4     |          |    3   | SuperNutri |
+|    4   |      5     |          |    4   | SuperCamel |
+|    5   |      6     |          |    5   | SuperMyope |
+|    6   |      7     |          |    6   | SuperGatou |
+|    7   |      8     |          |    7   | Nageoiruss |
+|    8   |     11     |          |    8   | SuperSanté |
++--------+------------+          +--------+------------+
+
++------------------------+       +-----------------------------+
+|       EstMechant       |       |           MECHANT           |
++-----------+------------+       +-----------+-----------------+
+| idMechant | idPersonne |       | idMechant |       NomM      |
++-----------+------------+       +-----------+-----------------+
+|     1     |      3     |       |     1     | Chaussettosaure |
+|     2     |      9     |       |     2     | Percuteurosorus |
+|     3     |     10     |       |     3     | HyperEcrazatorr |
+|     4     |     12     |       |     4     | VolataurDeSacus |
+|     5     |     13     |       |     5     | Anéantissefakus |
+|     6     |     14     |       |     6     | HyperDestructor |
+|     7     |     15     |       |     7     | Anarchissoidale |
++-----------+------------+       +-----------+-----------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
