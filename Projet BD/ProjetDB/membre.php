@@ -95,10 +95,12 @@
 
 //code afficher les personne inscrite
 
-/*
-$bdd = new PDO('mysql:host=172.24.43.180;dbname=choupavinow;chharset=utf8','choupavinow','aeWoogha3xieDe');
 
-$reponse = $bdd->query('SELECT * FROM utilisateur');
+$bdd = new PDO('mysql:host=localhost;dbname=test;chharset=utf8', root);
+
+
+$reponse = $bdd->query('SELECT Nom, Prenom, NomP FROM Personne NATURAL JOIN SuperPouvoir');
+
 
 while ($donnees = $reponse->fetch())
 
@@ -111,14 +113,21 @@ while ($donnees = $reponse->fetch())
           <div class="col">
           <h3>
           <?php
-            echo $donnees['nom'] ;
+            echo $donnees['Nom'] ;
           ?>
         </h3>
           </div>
           <div class="col">
             <h3>
           <?php
-            echo $donnees['prenom'];
+            echo $donnees['Prenom'];
+          ?>
+        </h3>
+          </div>
+          <div class="col">
+            <h3>
+          <?php
+            echo $donnees['NomP'] ;
           ?>
         </h3>
           </div>
@@ -130,8 +139,9 @@ while ($donnees = $reponse->fetch())
 
 }
 
-$reponse->closeCursor();
-*/
+$reponse->closeCursor(); //*/
+//$rep->closeCursor();
+
 ?>
 
 

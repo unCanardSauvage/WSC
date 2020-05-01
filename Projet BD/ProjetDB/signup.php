@@ -109,22 +109,30 @@
 
 //,$genre,$pouvoir,$mail,$date,$pays,$ville
 
-$bdd = new PDO('mysql:host=localhost;dbname=test;chharset=utf8');
-/*
+$bdd = new PDO('mysql:host=localhost;dbname=test;chharset=utf8', root);
+ 
 if (!empty($_POST)) {   
 
-$rep = $bdd->prepare('INSERT INTO Personne (Nom,Prenom) VALUES(?,?)');
-$rep = $bdd->prepare('INSERT INTO SuperPouvoir (NomP) VALUES(?)');
+$rep = $bdd->prepare('INSERT INTO personne (Nom,Prenom, idPouvoir) VALUES(?,?,?)');
 
-$Nom = $_POST['Nom']; 
+$rep2 = $bdd->prepare('SELECT idPouvoir FROM SuperPouvoir WHERE NomP = (NomP) VALUES(?)');
 
-$Prenom = $_POST['Prenom']; 
+$Nom = $_POST['nom']; 
 
-$NomP =  $_POST['NomP'];
+$Prenom = $_POST['prenom']; 
+
+$NomP =  $_POST['pouvoir'];
+
+//$NomP = 'Force de baleine bleue';
+
+
+$rep2->execute(array($NomP));
+
+ echo $NomP;
 
 $rep->execute(array($Nom,$Prenom,$NomP)); 
 
- }*/
+ } 
 ?>
 
 <form action="signup.php" method="post">
@@ -170,31 +178,33 @@ $rep->execute(array($Nom,$Prenom,$NomP));
 
     <select class="form-control mr-sm-2" name="pouvoir">
 
-      <option>pouvoir de l'araignée</option>
+      <option value="1">Pouvoir de l araignée</option>
 
-      <option>contrôle des champs magnétique</option>
+      <option value="2">Contrôle des champs magnétique</option>
 
-      <option>super sérum</option>
+      <option value="3">Super sérum</option>
 
-      <option>vitesse super sonique</option>
+      <option value="4">Vitesse super sonique</option>
 
-      <option>force de baleine bleue</option>
+      <option value="5">Force de baleine bleue</option>
 
-      <option>voler (mais que les sacs à main)</option>
+      <option value="6">Voler (mais que les sacs à main)</option>
 
-      <option>super bond</option>
+      <option value="7">Super bond</option>
 
-      <option>vision atypique (myopie sévère)</option>
+      <option value="8">Vision atypique (myopie sévère)</option>
 
-      <option>invisibilité</option>
+      <option value="9">Invisibilité</option>
 
-      <option>regénération</option>
+      <option value="10">Regénération</option>
 
-      <option>camouflage</option>
+      <option value="11">Camouflage</option>
 
-      <option>résistance ultra-résistante</option>
+      <option value="12">Résistance ultra-résistante</option>
 
-      <option>intelligence hippopotomonstrosesquippedaliophobique</option>
+      <option value="14">Intelligence Hippopotomonstrosesquippedaliophobique</option>
+
+      <option value="NULL">Aucun</option>
 
     </select>
 
