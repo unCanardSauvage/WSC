@@ -9,7 +9,7 @@ Drop table if exists GENTIL;
 Drop table if exists SuperPouvoir;
 
 Create Table Personne (
-		idPersonne integer primary key,
+		idPersonne integer primary key auto_increment,
         Nom varchar(80),
         Prenom varchar(80),
         idPouvoir integer references SuperPouvoir(idPouvoir)
@@ -17,7 +17,7 @@ Create Table Personne (
 
 Create Table Exploit(
 		idExp integer primary key,
-        Titre varchar(80),
+        Titre varchar(240),
         Detail text
 );
 
@@ -94,10 +94,10 @@ insert into Personne values (21,'Nazirah Najjar','Yafiah',6);
 /*remplissage table superpouvoir*/
 insert into SuperPouvoir values (1,'Pouvoir de l araignée');
 insert into SuperPouvoir values (2,'Contrôle des champs magnétique');
-insert into SuperPouvoir values (3,'super sérum');
+insert into SuperPouvoir values (3,'Super sérum');
 insert into SuperPouvoir values (4,'Vitesse super sonique');
 insert into SuperPouvoir values (5,'Force de baleine bleue');
-insert into SuperPouvoir values (6,'voler (mais que des sacs à main)');
+insert into SuperPouvoir values (6,'Voler (mais que des sacs à main)');
 insert into SuperPouvoir values (7,'Super bond');
 insert into SuperPouvoir values (8,'Vision atypique (myopie sévère)');
 insert into SuperPouvoir values (9,'Invisibilité');
@@ -128,12 +128,12 @@ insert into Realise values (12,3,05/02/19);
 insert into Realise values (10,4,13/06/08);
 insert into Realise values (20,5,24/12/16);
 insert into Realise values (7,6,21/12/12);
-insert into Realise values (8,7,11/01/03);
+insert into Realise values (8,7,1/01/03);
 insert into Realise values (14,8,05/09/89);
 insert into Realise values (13,9,19/04/13);
 insert into Realise values (18,10,23/05/12);
 insert into Realise values (15,11,27/06/14);
-insert into Realise values (19,12,29/02/20);
+insert into Realise values (19,12,9/02/20);
 insert into Realise values (3,12,23/02/1972);
 insert into Realise values (1,13,14/3/2008);
 
@@ -197,7 +197,7 @@ insert into EstMechant values (10,6);
 #Select prenom,nom,NomP from Personne Natural Join SuperPouvoir;
 
 #Affiche tout les expoits d'une personne
-#Select 
+#Select Titre from Exploit inner join Exploit.idExp = Realise.idExp  
 
 #Affiche tout les participants d'un exploit
 #Select Nom,Prenom From Personne inner join Realise on Personne.idPersonne = 
