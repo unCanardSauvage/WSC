@@ -18,7 +18,7 @@
 
 
 
-    <title>Je m'engage</title>
+    <title>Projet BD</title>
 
   </head>
 
@@ -26,7 +26,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000099;">
 
-  <a class="navbar-brand" href="#">Recrutation de héros !</a>
+  <a class="navbar-brand" href="#">Nos supers héros !</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -40,43 +40,25 @@
 
     <ul class="navbar-nav mr-auto">
 
-      <li class="nav-item active">
+      <li class="nav-item">
 
         <a class="nav-link" href="index.php">Accueil </a>
 
       </li>
 
-      <li class="nav-item">
+      <li class="nav-item active">
 
-        <a class="nav-link" href="presentation.php">Présentation </a>
+        <a class="nav-link" href="signup.php">Ajouter une personne </a>
 
       </li>
 
-      <li class="nav-item dropdown">
+      <li class="nav-item">
 
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-          Profils
-
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-          <a class="dropdown-item" href="membre.php">Liste des inscrits</a>
-
-          <a class="dropdown-item" href="test.php">Ai-je un super pouvoir ?</a>
-
-        </div>
+        <a class="nav-link" href="membre.php">Liste des personnes </a>
 
       </li>
 
     </ul>
-
-    <form class="form-inline my-2 my-lg-0">
-
-      <a href="signin.php" class="btn btn-outline-light my-2 my-sm-0" role="button" >Connexion</a>
-
-    </form>
 
   </div>
 
@@ -238,17 +220,7 @@ $rep->execute(array($Nom,$Prenom,$NomP));
 <a class="nav-link" href="condition.php"> prendre connaissance des conditions d'utilisation <span class="sr-only(current)"</span> </a>
 
 
-
-      <a href="signin.php" class="btn btn-outline-light my-2 my-sm-0" role="button" >Connexion</a>
-
-
-
-
-
-<a class="nav-link" href="index.php">Se connecter <span class="sr-only(current)"</span> </a>
-
-
-
+  <p> Cliquer sur Confirmer pour envoyer le formulaire puis sur Retour afin de revenir sur la page d'accueil.</p>
 
 
   <button type="submit" class="btn btn-primary" href="index.php">Confirmer</button>
@@ -257,7 +229,7 @@ $rep->execute(array($Nom,$Prenom,$NomP));
 
 
 
-    <a href="index.php" class="btn btn-primary" role="submit" >Connexion</a>
+    <a href="index.php" class="btn btn-primary" role="submit" >Retour</a>
 
   </form>
 
